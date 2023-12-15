@@ -1,0 +1,37 @@
+# Credentials and secrets
+*.env
+.env.local
+config.json
+credentials.json
+*_SECRET*
+*_KEY*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+node_modules/
+
+# Build
+dist/
+build/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Private configuration
+private/
+.private/
