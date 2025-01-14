@@ -1,0 +1,59 @@
+# Configuration Template for 10 Claude Integration
+
+## Required API Keys and Credentials
+
+This project requires the following configuration:
+
+### API Keys
+- Anthropic/Claude API Key
+- OpenAI API Key
+
+### URLs and Endpoints
+- None required
+
+### Google Resources
+- None required
+
+## Setup Instructions
+
+1. **Open Google Apps Script Editor**
+   - Open your Google Sheet
+   - Go to Extensions → Apps Script
+
+2. **Configure Script Properties**
+   - In the Apps Script editor, go to Project Settings (gear icon)
+   - Scroll down to "Script Properties"
+   - Add the following properties:
+   - Anthropic/Claude API Key: YOUR_VALUE_HERE
+   - OpenAI API Key: YOUR_VALUE_HERE
+
+3. **Alternative: Run Setup Function**
+   - Open any script file in this project
+   - Find and run the `setupConfiguration()` function
+   - Replace placeholder values with your actual credentials
+
+4. **Test the Configuration**
+   - Run a simple test function to verify setup
+   - Check the logs for any configuration errors
+
+## Security Notes
+
+- **Never hardcode credentials** directly in the script
+- **Use Script Properties** to store sensitive information
+- **Don't share** your configured script with credentials
+- **Rotate keys** regularly for better security
+
+## Obtaining Credentials
+
+### OpenAI API Key
+- Sign up at https://platform.openai.com
+- Go to API Keys section
+- Create new secret key
+
+### Anthropic API Key
+- Sign up at https://console.anthropic.com
+- Go to API Keys section
+- Create new key
+
+---
+*Remember to keep your credentials secure and never commit them to version control*
