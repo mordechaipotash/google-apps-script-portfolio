@@ -66,3 +66,7 @@ All scripts follow security best practices:
 ---
 
 *Built with passion for automation and efficiency*
+
+---
+
+*Built by [Mordechai Potash](https://github.com/mordechaipotash)*
